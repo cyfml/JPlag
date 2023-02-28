@@ -3,7 +3,7 @@
 <script>
     const UrlPath = window.location.pathname;
     console.warn(UrlPath);
-    const branch = UrlPath.split('/')[2];
+    const branch = UrlPath.split('/')[1];
     const url = "https://cyfml.github.io/" + branch + "/";
     location.replace(url);
 </script>
